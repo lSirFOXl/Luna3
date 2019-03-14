@@ -1,0 +1,696 @@
+<!-- BEGIN: body -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+     <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?onload=myCallBack&amp;render=explicit"></script>
+    <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?onload=myCallBack&amp;render=explicit" async defer></script>
+    <meta charset="UTF-8">
+    <title>LunaHost</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    
+    
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/prepare.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/multisize.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/interactive.css">
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/jqueryRotate.js"></script>
+    <script src="js/jquery.viewportchecker.js"></script>
+    <script src="js/jqueryEasing.js"></script>
+
+
+    <script type="text/javascript">
+        var recaptcha1;
+        var recaptcha2;
+        var tl1b
+        var tl2b
+
+        $( document ).ready(function() {
+            if($(window).width() < 420){
+                $('.circle_pic').css({'left': $(window).width()/2 - $('.circle_pic').width()/2})
+                $('.dia_pic').css({'left': $(window).width()/2 - $('.dia_pic').width()/2})
+            }
+        });
+
+
+        $( window ).resize(function() {
+            if($(window).width() < 420){
+                
+                $('.circle_pic').css({'left': $(window).width()/2 - $('.circle_pic').width()/2})
+                $('.dia_pic').css({'left': $(window).width()/2 - $('.dia_pic').width()/2})
+                
+            }
+            else {
+                $('.circle_pic').attr('style', '');
+                $('.dia_pic').attr('style', '');
+            }
+
+        });
+
+    </script>
+</head>
+<body>
+    <div class="loader"></div>
+    <div class="content">
+        <!-- BEGIN: message -->
+            <div class='thanks' onclick="this.style.display='none'">
+                <p>Спасибо за проявленный интерес.</p>
+                <p>Мы свяжемся с вами в ближайшее время.</p>
+            </div>
+        <!-- END: message -->
+        
+        <div class='row head vis'>
+            <input type="radio" name="call" id="call1">
+            <input type="radio" name="call" id="call2">
+            <label for="call2" class="exit_sub2"><img src="images/icons/exit.png" alt=""></label>
+            <div class="block headBlock">
+                <div class="logo">
+                    <img src="images/B1Logo.png" alt="">
+
+                </div>
+                <div class="menu">
+                    <input type="radio" name="top_menu" id="top_menu1">
+                    <input type="radio" name="top_menu" id="top_menu2">
+
+                    <ul class="menu_ul_dop" id="spec_dop">
+                        <label for="call1" class="menu_li">обратный звонок</label>
+                    </ul>
+                    <label class="menu_li open_menu" for="top_menu1"><img src="images/icons/double_line.png" alt=""></label>
+                    <ul class="menu_ul" id="sub_menu">
+                        <label for="top_menu2" class="exit_sub"><img src="images/icons/exit.png" alt=""></label>
+                        <a href="#service"><li class="menu_li">Главная</li></a>
+                        <a href="#host"><li class="menu_li">О компании</li></a>
+                        <a href="#tariff"><li class="menu_li">Тарифы и цены</li></a>
+                        <a href="#contacts"><li class="menu_li">Контакты</li></a>
+                        <a href="#"><li class="li_helper"></li></a>
+                    </ul>
+                </div>
+                <div class="DogRocket">
+                    <div class="DogRocket_img">
+                        <img src="images/Ship.png" alt="" class="in_dR">
+                        <img src="images/Smooke.png" alt="" class="in_dR in_DrS">
+                    </div>
+                    <div class="DogRocket_star1 starDR"><img src="images/B1Star1.png"  alt=""></div>
+                    <div class="DogRocket_star2 starDR"><img src="images/B1Star2.png"  alt=""></div>
+                    <div class="DogRocket_star3 starDR"><img src="images/B1Star3.png"  alt=""></div>
+                    <div class="DogRocket_star4 starDR"><img src="images/B1Star4.png"  alt=""></div>
+                </div>
+                <div class="request">
+                    <h1>
+                        Удобный<br class="Delete1000 Show480"> и надёжный хостинг LunaHost
+                    </h1>
+                    <div class="request_announce">
+                        Удобные способы оплаты, реальный бумажный договор, оперативная поддержка от очень опытных системных администраторов, личные звонки и уведомления &mdash; всегда вовремя.
+                    </div>
+                    <div class="head_line"></div>
+                    <div class="cont cont_head fch">
+                        <div class="cont_min">
+                            Телефон:
+                        </div>
+                        <a href="tel:+73422981819" class="cont_big">
+                            +7 (342) 298 18 19
+                        </a>
+                    </div>
+                    <div class="cont cont_head">
+                        <div class="cont_min">
+                            E-mail:
+                        </div>
+                        <a href="mailto:info@lunahost.ru" class="cont_big">
+                            info@lunahost.ru
+                        </a>
+                    </div>
+                    <div class="bacCall">
+                        
+                        <div class="bacCall_title zag">
+                            Заказать обратный звонок
+                        </div>
+                        <div class="bacCall_anons">
+                            Оставьте заявку и мы свяжемся с вами в ближайшее время!
+                        </div>
+                        <form method="post" class="bacCall_form">
+                            <input type="text" name="name" class="bacCall_form_name" placeholder="Ваше имя">
+                            <input type="text" name="phone" class="bacCall_form_two2" placeholder="Ваш телефон">
+                            <input type="text" name="mail" class="bacCall_form_two" placeholder="Ваш e-mail">
+                            <div class="v_space"></div>
+                            <input type="submit" name="submit" class="bacCall_form_btn" value="Жду звонка">
+                        </form>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class='row service vis'>
+            
+            <a class="yakor" id="service"></a>
+            <div class="block serviceBlock">
+                <div class="service_title zag484">
+                    Надёжный хостинг с хорошим сервисом
+                </div>
+
+                <div class="service_type">
+                    <div class="srvice_line"></div>
+                    <div class="service_type_text service_block">
+                        <div class="service_type_title ">
+                            <span class="zag484">Виртуальный хостинг</span>
+                            <span class="service_type_num">
+                                01.
+                            </span>
+                            <div class="clr"></div>
+                        </div>
+                        
+                        <div class="service_type_description">
+                            <p>Подходит для большинства сайтов: лендингов, корпоративных сайтов, 
+                            сайтов каталогов, промо-сайтов и некрупных интернет-магазинов.</p>
+
+                            <p>Установка популярных CMS на ваш аккаунт: 1С-Битрикс, Joomla, 
+                            WordPress, ModX, Drupal и другие.</p>
+
+                            <p>Бесплатная настройка почты для вашего домена на Яндекс.Почте или Mail.Ru</p>
+                            <p>Полная сохранность ваших сайтов. Архивация хост-площадки на внешнее хранилище данных.</p>
+                        </div>
+                    </div>
+                    <div class="service_type_pic service_block">
+                        <div class="service_type_img1 service_type_img">
+                            <img src="images/Bl2Dog1_s.png" alt="">
+                            <img src="images/Bl2Dog1_a.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service_type">
+                    <div class="srvice_line"></div>
+                    <div class="service_type_text service_block">
+                        <div class="service_type_title">
+                            <span class="zag484">VDS-сервер</span>
+                            <span class="service_type_num stn2">
+                                02.
+                            </span>
+                            <div class="clr"></div>
+                        </div>
+                        
+                        <div class="service_type_description">
+                            <p>Полное соответствие реальных параметров сервера заявленным в тарифном плане. Никакой &laquo;химии&raquo;.</p>
+                            <p>Гибкость настроек под ваши цели и задачи.</p>
+
+                            <p>Оперативная поддержка от наших системных администраторов.</p>
+                        </div>
+                    </div>
+                    <div class="service_type_pic service_block">
+                        <div class="service_type_img2 service_type_img">
+                            <img src="images/Bl2Dog2_s.png" alt="">
+                            <img src="images/Bl2Dog2_a.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+        <div class='row host vis'>
+            <a class="yakor" id="host"></a>
+            <div class="block hostBlock">
+                <div class="host_bg">
+                    <img src="images/B3LU.png" alt="" class="host_bg_rocket1">
+                    <div class="host_bg_rocket3"><img src="images/B3LD.png" alt="" ></div>
+                    <div class="host_bg_dog"><img src="images/B3RD.png" alt=""></div>
+                    <img src="images/B3RDadd.png" alt="" class="host_bg_sun">
+                </div>
+                <div class="host_title">
+                    Виртуальный хостинг
+                </div>
+                <div class="host_circle">
+                    
+                    <div class="circle_text">
+                        <div class="circle_text_top">
+                            <div class="anim_el"><span>360</span><br>
+                            <span>рублей в месяц</span></div>
+                        </div>
+                        <div class="circle_text_middle">
+                            
+                        </div>
+                        <div class="circle_text_bottom">
+                            <div class="anim_el"><span>Всем-всем, перенос сайта 
+                            с другого хостинга &mdash;</span>
+                            <span>бесплатно!</span></div>
+                        </div>
+                    </div>
+                    <div class="circle_pic">
+                        
+                    </div>
+                </div>
+                <div class="host_dia">
+                    <div class="dia_pic">
+                        <div class="rotCont">
+                            <div class="rot rot1">
+                                <div class="eng_rot eng_rot1"><img class="img_rot" src="images/B3CCircle.png" alt=""></div>
+                            </div>
+                            <div class="rot rot2">
+                                <div class="eng_rot eng_rot2"><img class="img_rot" src="images/B3CCircle.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dia_text">
+                        <span>При оплате<br class="Delete720 Show2000 Delete720"> за<br class="Delete2000 Delete1000"> год &mdash; <br class="Show2000 Delete720"></span><span>скидка <br class="Show810 Delete720">10%</span>
+                    </div>
+                </div>
+                <div class="host_bgLine">
+                    <div class="host_bgLine_cont">
+                        <div class="host_bgLine_ring" >
+                            <div class="rotCont">
+                                <div class="rot rot1">
+                                    <div class="eng_rot eng_rot1"><img class="img_rot" src="images/ring1.png" alt=""></div>
+                                </div>
+                                <div class="rot rot2">
+                                    <div class="eng_rot eng_rot2"><img class="img_rot" src="images/ring1.png" alt=""></div>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="host_bgLine_ring" >
+                            <div class="rotCont">
+                                <div class="rot rot1">
+                                    <div class="eng_rot eng_rot1"><img class="img_rot" src="images/ring2.png" alt=""></div>
+                                </div>
+                                <div class="rot rot2">
+                                    <div class="eng_rot eng_rot2"><img class="img_rot" src="images/ring2.png" alt=""></div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="host_bgLine_ring" >
+                            <div class="rotCont">
+                                <div class="rot rot1">
+                                    <div class="eng_rot eng_rot1"><img class="img_rot" src="images/ring3.png" alt=""></div>
+                                </div>
+                                <div class="rot rot2">
+                                    <div class="eng_rot eng_rot2"><img class="img_rot" src="images/ring3.png" alt=""></div>
+                                </div>
+                            </div> 
+                        </div>
+                        <!--<img src="images/B3C.png" alt="">-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='row tariff vis'>
+            <a class="yakor" id="tariff"></a>
+            <div class="block tariffBlock">
+                <div class="tariff_title">
+                    Тарифные планы
+                </div>
+                <input checked type="radio" name="tariff_two" id="tariff_two1">
+                <input type="radio" name="tariff_two" id="tariff_two2">
+
+                <div class="tariff_check">
+                    <label for="tariff_two1" class="tariff_check_1">
+                        Виртуальный хостинг
+                    </label>
+                    <label for="tariff_two1" class="Show675 no_one_del">
+
+                    </label>
+                    <label for="tariff_two2" class="tariff_check_2">
+                        VDS хостинг
+                    </label>
+                </div>
+
+                <input type="radio" name="slide" id="slide1">
+                <input type="radio" name="slide" id="slide2" checked>
+                <input type="radio" name="slide" id="slide3">
+
+                <input type="radio" name="slidee" id="slide11" checked>
+                <input type="radio" name="slidee" id="slide22">
+
+                <input type="radio" name="claim" id="claim1">
+                <input type="radio" name="claim" id="claim2" checked>
+
+                <div class="bacCall">
+                    <label for="claim2" class="exit_sub3"><img src="images/icons/exit.png" alt=""></label>
+                    <div class="bacCall_title zag">
+                        Заявка на хостинг
+                    </div>
+                    <div class="bacCall_anons">
+                        Оставьте заявку и мы свяжемся с вами в ближайшее время!
+                    </div>
+                    
+                    <form method="post" class="bacCall_form">
+                        <input type="text" name="name" class="bacCall_form_two" placeholder="Ваше имя">
+                        <input type="text" name="phone" class="bacCall_form_two" placeholder="Ваш телефон">
+                        <input type="text" name="mail" class="bacCall_form_two" placeholder="Ваш e-mail">
+                        <input type="hidden" name="tar" id="tar" value="Белка">
+                        <div class="v_space"></div>
+                        <div class="cbo"><div id="recaptcha2"></div></div>
+                        <input type="submit" name="submit" class="bacCall_form_btn" value="Жду звонка">
+                    </form>
+                </div>
+                <div class="slide_btns sb1">
+                    <div class="slide_arrow ">
+                        <label for="slide1" class="slide_arrow1 slide_arrow"><img src="images/Arrow.png" alt=""></label>
+                        <label for="slide2" class="slide_arrow2 slide_arrow"><img src="images/Arrow.png" alt=""></label>
+                        <label for="slide3" class="slide_arrow3 slide_arrow"><img src="images/Arrow.png" alt=""></label>
+                    </div>
+                    <div class="slide_radio">
+                        <label for="slide1" class="slide_radio1 slide_radio_btn"></label>
+                        <label for="slide2" class="slide_radio2 slide_radio_btn"></label>
+                        <label for="slide3" class="slide_radio3 slide_radio_btn"></label>
+                    </div>
+                </div>   
+
+                <div class="slide_btns sb2">
+                    <div class="slide_arrow ">
+                        <label for="slide11" class="slide_arrow1 slide_arrow"><img src="images/Arrow.png" alt=""></label>
+                        <label for="slide22" class="slide_arrow2 slide_arrow"><img src="images/Arrow.png" alt=""></label>
+                    </div>
+                    <div class="slide_radio">
+                        <label for="slide11" class="slide_radio1 slide_radio_btn"></label>
+                        <label for="slide22" class="slide_radio2 slide_radio_btn"></label>
+                    </div>
+                </div>     
+
+                <div class="tariff_list tl1">
+                        <div onclick="document.getElementById('claim1').checked = true; tar.setAttribute('value', getElementsByClassName('el_title')[0].innerText)" class="tariff_list_el">
+                            
+                            <div class="el_inner">
+                                
+                                <div class="el_bg">
+                                    <img src="images/B4dogAlt.png" alt="">
+                                    <img src="images/B4dog.png" alt="">
+                                </div>
+                                <div class="el_up">
+                                    <div class="el_title">
+                                        Спутник<br class="Show1000"><br class="Show1000">
+                                    </div>
+                                    <div class="el_in">
+                                        Включает в себя
+                                    </div>
+                                    <div class="el_list">
+                                        <ul>
+                                            <div><span>—</span><span> Для одного сайта, с 3 Гб диска и 2 БД</span></div>
+                                            <div><span>—</span><span> Бесплатный домен в зоне .RU</span></div>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="el_down">
+                                    <div class="el_price">
+                                        <div class="el_num">
+                                            360
+                                        </div>
+                                        <div class="el_rm">
+                                            <div>руб.</div><br>
+                                            <div>мес.*</div>
+                                        </div>
+                                    </div>
+                                    <label for="claim1" class="el_btn">
+                                        <span>Зарезервировать</span><span> <img src="images/icons/B4ok.png" alt=""><img src="images/icons/B4okAlt.png" alt=""></span>
+                                    </label>
+                                    
+                                </div>
+                                
+                            </div>
+                            <div class="tariff_list_smooth"></div>
+                        </div>
+                        <div onclick="document.getElementById('claim1').checked = true; tar.setAttribute('value', getElementsByClassName('el_title')[0].innerText)"  class="tariff_list_el">
+                            <div class="el_inner">
+                                <div class="el_bg">
+                                    <img src="images/B4dogAlt.png" alt="">
+                                    <img src="images/B4dog.png" alt="">
+                                </div>
+                                <div class="el_up">
+                                    <div class="el_title">
+                                        Белка и Стрелка
+                                    </div>
+                                    <div class="el_in">
+                                        Включает в себя
+                                    </div>
+                                    <div class="el_list">
+                                            <div><span>—</span><span> Для 5 сайтов, с 10 Гб памяти и 5 БД</span></div>
+                                            <div><span>—</span><span> Бесплатный домен в зоне .RU</span></div>
+                                            <div><span>—</span><span> Настройка корпоративный почты</span></div>
+                                    </div>
+                                </div>
+                                <div class="el_down">
+                                    <div class="el_price">
+                                        <div class="el_num">
+                                            540
+                                        </div>
+                                        <div class="el_rm">
+                                            <div>руб.</div><br>
+                                            <div>мес.*</div>
+                                        </div>
+                                    </div>
+                                    <label for="claim1" class="el_btn">
+                                        <span>Зарезервировать</span><span> <img src="images/icons/B4ok.png" alt=""><img src="images/icons/B4okAlt.png" alt=""></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="tariff_list_smooth"></div>
+                        </div>
+                        <div onclick="document.getElementById('claim1').checked = true; tar.setAttribute('value', getElementsByClassName('el_title')[0].innerText)" class="tariff_list_el">
+                            <div class="el_inner">
+                                <div class="el_bg">
+                                    <img src="images/B4dogAlt.png" alt="">
+                                    <img src="images/B4dog.png" alt="">
+                                </div>
+                                <div class="el_up">
+                                    <div class="el_title">
+                                        Гагарин<br class="Show1000"><br class="Show1000">
+                                    </div>
+                                    
+                                    <div class="el_in">
+                                        Включает в себя
+                                    </div>
+                                    <div class="el_list">
+                                        <div><span>—</span><span> Для 10 сайтов, с 20 Гб памяти и 10 БД</span></div>
+                                        <div><span>—</span><span> Бесплатный домен в зоне .RU</span></div>
+                                        <div><span>—</span><span> Еженедельный бэкап сайта на Яндекс.Диск</span></div>
+                                        <div><span>—</span><span> Настройка корпоративный почты</span></div>
+                                    </div>
+                                </div>
+                                <div class="el_down">
+                                    <div class="el_price">
+                                        <div class="el_num">
+                                            720
+                                        </div>
+                                        <div class="el_rm">
+                                            <div>руб.</div><br>
+                                            <div>мес.*</div>
+                                        </div>
+                                    </div>
+                                    <label for="claim1" class="el_btn">
+                                        <span>Зарезервировать</span><span> <img src="images/icons/B4ok.png" alt=""><img src="images/icons/B4okAlt.png" alt=""></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="tariff_list_smooth"></div>
+                        </div>
+                </div>
+
+                <div class="tariff_list tl2">
+
+                        <div onclick="document.getElementById('claim1').checked = true; tar.setAttribute('value', getElementsByClassName('el_title')[0].innerText)" class="tariff_list_el">
+                            <div class="el_inner">
+                                <div class="el_bg">
+                                    <img src="images/B4dogAlt.png" alt="">
+                                    <img src="images/B4dog.png" alt="">
+                                </div>
+                                <div class="el_up">
+                                    <div class="el_title">
+                                        Союз
+                                    </div>
+                                    <div class="el_in">
+                                        Включает в себя
+                                    </div>
+                                    <div class="el_list">
+                                            <div><span>—</span><span>3,4 ГГЦ CPU</span></div>
+                                            <div><span>—</span><span>2000 МБ RAM</span></div>
+                                            <div><span>—</span><span>100 ГБ SSD</span></div>
+                                    </div>
+                                </div>
+                                <div class="el_down">
+                                    <div class="el_price">
+                                        <div class="el_num">
+                                            1800
+                                        </div>
+                                        <div class="el_rm">
+                                            <div>руб.</div><br>
+                                            <div>мес.*</div>
+                                        </div>
+                                    </div>
+                                    <label for="claim1" class="el_btn">
+                                        <span>Зарезервировать</span><span> <img src="images/icons/B4ok.png" alt=""><img src="images/icons/B4okAlt.png" alt=""></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div onclick="document.getElementById('claim1').checked = true; tar.setAttribute('value', getElementsByClassName('el_title')[0].innerText)" class="tariff_list_el">
+                            <div class="el_inner">
+                                <div class="el_bg">
+                                    <img src="images/B4dogAlt.png" alt="">
+                                    <img src="images/B4dog.png" alt="">
+                                </div>
+                                <div class="el_up">
+                                    <div class="el_title">
+                                        Луноход<br class="Show1000"><br class="Show1000">
+                                    </div>
+                                    
+                                    <div class="el_in">
+                                        Включает в себя
+                                    </div>
+                                    <div class="el_list">
+                                        <div><span>—</span><span>3,4 ГГЦ CPU</span></div>
+                                        <div><span>—</span><span>4000 МБ RAM</span></div>
+                                        <div><span>—</span><span>100 ГБ SSD</span></div>
+                                    </div>
+                                </div>
+                                <div class="el_down">
+                                    <div class="el_price">
+                                        <div class="el_num">
+                                            3150
+                                        </div>
+                                        <div class="el_rm">
+                                            <div>руб.</div><br>
+                                            <div>мес.*</div>
+                                        </div>
+                                    </div>
+                                    <label for="claim1" class="el_btn">
+                                        <span>Зарезервировать</span><span> <img src="images/icons/B4ok.png" alt=""><img src="images/icons/B4okAlt.png" alt=""></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+                
+
+                <div class="clr"></div>
+                <div class="tariff_text">
+                    <p>
+                        Цены на услуги хостинга указаны с учётом 10% скидки при оплате за год. Всем-всем, перенос сайта с другого хостинга — бесплатно!
+                    </p>
+                    <p>
+                        <a href="/docs/rules.pdf" target="_blank">Правила</a> предоставления услуг хостинга и аренды VDS.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class='row contacts vis'>
+            <a class="yakor" id="contacts"></a>
+            <div class="contacts_block contacts_block-map">
+                
+            </div>
+            <div class="contacts_block contacts_block-text">
+                <div class="cbt_inner ">
+                    <div class="cb_title">
+                        Контакты
+                    </div>
+                    <div class="cb_text">
+                        <ul>
+                            <li><div class="cb_text_ico"><img src="images/icons/phone.png" alt=""></div><span class="specClassUp">Телефон</span><span class="megaUsCl"><a href="tel:+73422981819">+7 (342) 298 18 19</a></span></li>
+                            <li><div class="cb_text_ico"><img src="images/icons/flag.png" alt=""></div><span class="specClassUp">Адрес</span><address class="megaUsCl">г. Пермь,<br class="Show720"> ул. Революции, 8</address></li>
+                            <li><div class="cb_text_ico"><img src="images/icons/mess.png" alt=""></div><span class="specClassUp">Электронная почта</span><span class="megaUsCl"><a href="mailto:info@lunahost.ru">info@lunahost.ru</a></span></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="cb_social">
+                        <ul>
+                            <!--
+                            <li><a href="#"><img src="images/social/skype.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/social/telegram.png" alt=""></a></li><br class="clr Show720" />
+                            <li><a href="#"><img src="images/social/vk.png" alt=""></a></li>
+                            <li><a href="#"><img src="images/social/facebook.png" alt=""></a></li>
+                            <li class="li_helper"></li>
+                            -->
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class='row footer vis'>
+            <div class="footer_anim">   
+                <div class="block footerBlock">
+                    <div class="footer_containerOuter">
+                        <div class="footer_block">
+                            <div class="footer_logo">
+                                <img src="images/B6Logo.png" alt="">
+                            </div>
+                            <div class="footer_phone Delete720">
+                                <span>Телефон</span><a href="tel:+73422981819">+7 (342) 298 18 19</a>
+                            </div>
+                        </div>
+
+                        <div class="footer_block">
+                            <div class="footer_menu">
+                                <input type="radio" name="top_menu" id="bottom_menu1">
+                                <input type="radio" name="top_menu" id="bottom_menu2">
+                                <ul class="menu_ul_dop">
+                                    <li class="menu_li">обратный звонок</li>
+                                </ul>
+                                <label class="menu_li open_menu" for="bottom_menu1"><img src="images/icons/double_line_alt.png" alt=""></label>
+                                <ul class="menu_ul" id="sub_menu2">
+                                    <label for="bottom_menu2" class="exit_sub"><img src="images/icons/exit.png" alt=""></label>
+                                    <a href="#service"><li class="menu_li">Главная</li></a>
+                                    <a href="#host"><li class="menu_li">О компании</li></a>
+                                    <a href="#tariff"><li class="menu_li">Тарифы и цены</li></a>
+                                    <a href="#contacts"><li class="menu_li">Контакты</li></a>
+                                    <a href="#"><li class="li_helper">Контакты</li></a>
+                                </ul>
+                            </div>
+                            <div class="footer_text">
+                                © 2016-2017 Защищено авторским правом &laquo;LunaHost&raquo;.<br>
+                                Текст, изображения, графика, звуковые файлы, анимационные файлы, видеофайлы и их компоновка защищены авторским правом и прочими положениями о защите интеллектуальной собственности. Данные объекты не могут копироваться с целью коммерческого использования или распространения, модифицироваться или публиковаться на других сайтах.
+                            </div>
+                        </div>
+                        <div class="footer_block footer_phone Show720">
+                            <span>Телефон</span><a href="tel:+73422981819">+7 (342) 298 18 19</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_bottom">
+                    <div class="block">
+                        <div class="fb_block fb_copy">
+                            © 2016-2017 
+                        </div>
+                        <div class="fb_block fb_logo">
+                            <div>Создание сайтов</div><div><img src="images/B6Amado.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?onload=myCallBack&amp;render=explicit"></script>
+    <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?onload=myCallBack&amp;render=explicit" async defer></script>
+</body>
+
+
+
+</html>
+
+<script>
+
+$("body").css("overflow","hidden"); 
+var scW = $(window).width()
+$(".headBlock .request").offset({left:scW+scW/3})
+$(".headBlock .menu").offset({left:scW+scW/3})
+
+$(".headBlock .request").css({"opacity": 1})
+$(".headBlock .menu").css({"opacity": 1})
+
+$(".DogRocket_img").css({"margin-bottom": -$(".headBlock .request").outerHeight()})
+
+$(".cb_text li ").css({"left": scW+scW/3})
+
+
+                    
+
+
+                       
+        </script>
+<!-- END: body -->

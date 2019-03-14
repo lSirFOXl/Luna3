@@ -1,0 +1,43 @@
+@font-face {
+    font-family: OpenSansRegular; 
+    src: url("../fonts/openSans/OpenSans-Regular.eot?") format('embedded-opentype'), 
+    url("../fonts/openSans/OpenSans-Regular.ttf") format("truetype"); 
+}
+
+@font-face {
+    font-family: OpenSansLight; 
+    src: url("../fonts/openSans/OpenSans-Light.eot?") format('embedded-opentype'),
+    url("../fonts/openSans/OpenSans-Light.ttf") format("truetype"); 
+}
+
+@font-face {
+    font-family: OpenSansExtraBold; 
+    src: url("../fonts/openSans/OpenSans-ExtraBold.eot?") format('embedded-opentype'),
+    url("../fonts/openSans/OpenSans-ExtraBold.ttf") format("truetype"); 
+}
+
+@font-face {
+    font-family: OpenSansSemiBold; 
+    src: url("../fonts/openSans/OpenSans-Semibold.eot?") format('embedded-opentype'),
+    url("../fonts/openSans/OpenSans-Semibold.ttf") format("truetype"); 
+}
+
+@font-face {
+    font-family: OpenSansBold; 
+    src: url("../fonts/openSans/OpenSans-Bold.eot?") format('embedded-opentype'),
+    url("../fonts/openSans/OpenSans-Bold.ttf") format("truetype"); 
+}
+
+@font-face {
+    font-family: GothamProLight; 
+    src: url("../fonts/GothamPro/GothamProLight.eot?") format('embedded-opentype'),
+    url("../fonts/GothamPro/GothamProLight.ttf") format("truetype"); 
+}
+
+@font-face {
+    font-family: "GothamProRegular";
+    src: url("../fonts/GothamPro/GothamProRegular.eot");
+    src: url("../fonts/GothamPro/GothamProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamPro/GothamProRegular.woff") format("woff"),
+    url("../fonts/GothamPro/GothamProRegular.ttf") format("truetype");
+}

@@ -1,0 +1,89 @@
+
+.menu_ul_dop label:hover{
+    background: white;
+    color: #37383c;
+    box-shadow: 0 0 0 2px #37383c; 
+}
+
+
+.bacCall_form input[type='submit']:hover{
+    box-shadow: 0 0 0 2px #37383c; 
+    background: white;
+    color: #37383c;
+}
+
+.tariffElAnimate *{
+    transition: all 0.5s;
+}
+
+.tariffElAnimate{
+    transition: all 0.5s;
+}
+
+.el_inner:hover{
+    background-color: white;
+    box-shadow: 0 0 0 1px #37383c; 
+}
+
+.el_inner:hover *{
+    color: #37383c;
+}
+
+.el_inner:hover .el_rm div:first-child{
+    border-bottom: 1px solid #37383c;
+}
+
+.el_inner:hover .el_btn span{
+    color: white;
+}
+
+.el_inner:hover .el_btn{
+    background: #1668fe;
+}
+
+.el_inner:hover .el_btn img:last-child{
+    display: block;
+}
+
+.el_inner:hover .el_btn img:first-child{
+    display: none;
+}
+
+.el_inner:hover .el_bg img:last-child{
+    opacity: 0;
+}
+.el_inner:hover .el_bg img:first-child{
+    opacity: 1;
+}
+
+#tariff_two1:checked ~ .tariff_check .tariff_check_2{
+    background: white;
+    color: #37383c;
+    box-shadow: 0 0 0 2px #37383c; 
+}
+
+#tariff_two2:checked ~ .tariff_check .tariff_check_1{
+    background: white;
+    color: #37383c;
+    box-shadow: 0 0 0 2px #37383c; 
+}
+
+#tariff_two2:checked ~ .tl1{
+    display: none;
+}
+
+#tariff_two2:checked ~ .sb1{
+    display: none;
+}
+
+#tariff_two1:checked ~ .tl2{
+    display: none;
+}
+
+#tariff_two1:checked ~ .sb2{
+    display: none;
+}
+
+#tariff_two2:checked ~ #slide2:checked ~ .slide_btns .slide_arrow .slide_arrow3{
+    display: none;
+}

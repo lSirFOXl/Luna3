@@ -1,0 +1,1847 @@
+@media all and (max-width: 1200px) { 
+    .menu ul{
+        text-align: justify;
+        padding-right: 10px;
+    }
+
+    .menu_ul li{
+        position: relative;
+        text-align: left;
+        display: inline-block;
+    }
+
+    .menu li.li_helper{
+        width: 100%;
+        height: 0;
+        visibility: hidden;
+    }
+
+    .menu a{
+        margin: 0 0 0 0;
+    }
+
+    .open_menu{
+        display: none;
+    }
+
+    .Show2000{
+        display: block;
+    }
+
+    .Delete2000{
+        display: none;
+    }
+
+    
+}
+
+@media all and (max-width: 1116px) { 
+    .menu ul{
+        text-align: justify;
+        padding-right: 10px;
+    }
+
+    .menu_ul li{
+        position: relative;
+        text-align: left;
+        display: inline-block;
+    }
+
+    .menu li.li_helper{
+        width: 100%;
+        height: 0;
+        visibility: hidden;
+    }
+
+    .menu a{
+        margin: 0 0 0 0;
+    }
+
+    .open_menu{
+        display: none;
+    }
+
+    
+}
+
+@media all and (max-width: 1000px) { 
+    .footer_menu li{
+        margin-right: 0%;
+    }
+
+    .footer_menu ul{
+        text-align: justify;       
+    }
+
+
+    .Delete1000{
+        display: none;
+    }
+
+    .Show1000{
+        display: block;
+    }
+
+    .DogRocket_star1{
+        display: none;
+    }
+
+    .logo{
+        padding-left: 40px;
+    }
+
+    .DogRocket_star2{
+        display: block;
+    }
+
+    .menu{
+        padding: 80px 40px 80px 40px;
+    }
+
+    .menu ul{
+        padding-right: 0px;
+    }
+    .request{
+        padding: 10px 40px 72px 40px;
+    }
+
+    .request h1{
+        font-size: 30pt;
+    }
+
+    .open_menu{
+        display: none;
+    }
+
+    
+
+    .request_announce{
+        padding: 40px 5px 30px 0;
+    }
+
+    .cont_head{
+        margin-bottom: 38px;
+    }
+    
+    .service_title{
+        font-size: 31.5pt;
+    }
+
+    .service_block{
+        padding-left: 40px;
+        padding-bottom: 40px;
+    }
+
+    .service_type_description{
+        widows: 100%;
+    }
+
+    .service_type_description p{
+        widows: 100%;
+        padding: 0;
+    }
+
+    .service_title{
+        margin: 65px 0 105px 0; 
+    }
+
+    .service_type_title{
+        font-size: 21pt;
+        margin-bottom: 35px; 
+    }
+
+    .service_type{
+        margin-bottom: 50px; 
+    }
+    .service_type:last-child{
+        margin-bottom: 15px; 
+    }
+
+    .service_type_num{
+        left: 360px;
+        top: -6px;
+    }
+
+    .service_type_img1{
+        top: -25px;
+        right: -75px;
+    }
+
+    .service_type_img2{
+        top: -75px;
+        right: -75px;
+    }
+
+    .srvice_line{
+        width: 17.5%;
+        top: 32px;
+        left: 458px;
+    }   
+
+    .host_dia{
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        
+    } 
+
+    .dia_pic{
+        margin-left: 100px;
+        
+    }
+
+    .host_bgLine{
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        position: absolute;
+    }
+    .host_bgLine_cont{
+        position: absolute;
+        left: -140px;
+    }
+
+    .dia_pic img{
+        
+        
+        z-index: 5;
+    }
+
+    .host_circle, .circle_pic{
+        width: 466px;
+        height: 466px;
+    }
+
+    .host_circle{
+        margin-bottom: 175px;
+        position: relative;
+        left: -25px;
+        z-index: 3;
+    }
+
+    .host_title{
+        font-size: 31.5pt;
+        padding-top: 70px; 
+        padding-bottom: 190px;
+    }
+
+    .dia_text{
+        left: 310px;
+        z-index: 6;
+    }
+
+    .circle_text_top span:first-child{
+        font-size:  69pt;
+    }
+
+    .tariff_title{
+        font-family: GothamProLight;
+        font-size: 31.5pt;
+        margin: 60px 0 40px 0;
+    }
+
+    .tariff_check{
+        margin-bottom: 40px;
+    }
+
+    .el_title{
+        line-height: 30pt;
+    }
+
+    .el_inner{
+        padding: 25px 25px;
+    }
+
+    .el_btn img{
+        margin-left: 0px;
+    }
+
+    .tariffBlock{
+        padding: 40px;
+    }
+
+    .el_up{
+        margin-bottom: 170px;
+    }
+
+    .el_price{
+        margin: 6px 0;
+    }
+
+    .tariff_text{
+        margin-bottom: 55px;
+    }
+
+    .cb_title{
+        font-size: 31.5pt;
+        margin-bottom: 60px;
+    }
+
+    .cb_text li span:first-child{
+        text-transform: uppercase;
+    }
+
+    .contacts_block{
+        padding: 60px 0 0 104px;
+    }
+
+    .cb_social ul{
+        text-align: justify;
+    }
+
+    .cb_social li{
+        display: inline-block;
+        position: relative;
+        width: 55px;
+        height: 55px;
+        text-align: left;
+    }
+
+    .cb_social li.li_helper{
+        width: 100%;
+        height: 0;
+        visibility: hidden;
+    }
+
+    .footerBlock, .footer_bottom .block{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .tariff{
+        position: relative;
+    }
+
+    .block tariffBlock{
+        padding-left: 40px;
+    }
+
+    /*.host_bg_rocket1{
+        top: 50px;
+        left: 0px;
+    }
+
+    .host_bg_rocket3{
+        top: auto;
+        bottom: -190px;
+        left: 0px;
+    }
+
+    .host_bg_dog{
+        top: auto;
+        bottom: -670px;
+        right: -175px;
+    }
+
+    .host_bg_sun{
+        top: 50px;
+        right: 50px;
+    }*/
+
+    /*.tariff_list{
+        width: 920px;
+        top: 0;
+        left: 0;
+    }*/
+}
+
+@media all and (max-width: 888px) { 
+    .service_type_img1{
+        top: 45px;
+        right: -75px;
+    }
+
+    .service_type_img2{
+        top: 48px;
+        right: -75px;
+    }
+}
+
+@media all and (max-width: 890px) { 
+    .dia_text span{
+        /*left: 270px;*/
+        font-size: 48pt; 
+    }
+}
+
+@media all and (max-width: 890px) { 
+    .dia_text{
+        width: 370px;
+        left: 120px;
+    }
+}
+
+@media all and (max-width: 814px) { 
+    .dia_text{
+        width: 310px;
+        left: 110px;
+    }
+}
+
+@media all and (max-width: 957px) { 
+    .cont_head{
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0 0 60px 0;
+    }
+
+    .fch{
+        padding: 0 0 30px 0;
+    }
+
+    .bacCall_form_two2, .bacCall_form_two{
+        display: block;
+        width: 100%;
+    }
+
+    .tariff_list{
+        width: 0px;
+        top: 0;
+        left: 0;
+        margin: 0 auto;
+        position: relative;
+        height: 510px;
+    }
+
+    .tariff_list_el{
+        height: 510px;
+    }
+
+    .tariff_list_el{
+        position: absolute;
+        width: 280px;
+    }
+
+    .el_inner{
+        position: absolute;
+        width: 280px;
+        padding: 22px;
+    }
+
+    .tariff_list_el:nth-child(2){
+        left: -150px;
+    }
+
+    .tariff_list_el:nth-child(1){
+        left: -490px;
+    }
+
+    .tariff_list_el:nth-child(3){
+        left: 190px;
+    }
+
+    #sub_menu{
+        display: block;
+    }
+
+    .slide_btns{
+        display: block;
+    }
+
+    .slide_btns{
+        width: 0px;
+        left: 0;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .slide_arrow{
+        position: relative;
+        
+    }
+
+    .slide_arrow label{
+        cursor: pointer;
+    }
+
+    .slide_arrow{
+        position: absolute;
+    }
+
+    .slide_arrow img{
+        padding: 10px;
+    }
+
+    .slide_radio{
+        position: absolute;
+        top: 540px;
+        width: 100px;
+        left: -50px;
+    }
+
+    .slide_radio_btn{
+        cursor: pointer;
+        border-radius: 100%;
+        margin: 5px;
+        display: inline-block;
+        background: #d1d1d1;
+        width: 20px;
+        height: 20px;
+        position: relative;
+    }
+
+    .tariff_text{
+        margin-top: 110px;
+    } 
+
+    #slide11:checked ~ .tariff_list{
+        left: 349px;
+    }   
+
+    #slide22:checked ~ .tariff_list{
+        left: 0px;
+    } 
+
+    #slide1:checked ~ .tl1{
+        left: 349px;
+    }   
+
+    #slide2:checked ~ .tl1{
+        left: 0px;
+    }  
+    #slide3:checked ~ .tl1{
+        left: -349px;
+    } 
+       
+    
+    #slide1:checked ~ .sb1 .slide_radio1,
+    #slide2:checked ~ .sb1 .slide_radio2,
+    #slide3:checked ~ .sb1 .slide_radio3{
+        background: #1668fe;
+        border: 4px solid #d1d1d1;
+    }
+
+    #slide2:checked ~ .sb1 .slide_arrow1,
+    #slide3:checked ~ .sb1 .slide_arrow2{
+        right: 150px; 
+        top: 190px;     
+        display: block;
+    }
+
+    #slide1:checked ~ .sb1 .slide_arrow1{
+        display: none;
+    }
+    #slide2:checked ~ .sb1 .slide_arrow2{
+        display: none;
+    }
+    #slide3:checked ~ .sb1 .slide_arrow3{
+        display: none;
+    }
+
+    #slide2:checked ~ .sb1 .slide_arrow3,
+    #slide1:checked ~ .sb1 .slide_arrow2{
+        transform: rotate(180deg);
+        -webkit-transform: -webkit-rotate (180deg);
+        -webkit-transform: rotate(180deg);
+        position: absolute;
+        left: 150px;
+        top: 184px;
+    }
+
+
+    /**/
+
+
+
+    #slide11:checked ~ .sb2 .slide_radio1,
+    #slide22:checked ~ .sb2 .slide_radio2{
+        background: #1668fe;
+        border: 4px solid #d1d1d1;
+    }
+
+    #slide22:checked ~ .sb2 .slide_arrow1{
+        right: 150px; 
+        top: 190px;     
+        display: block;
+    }
+
+    #slide22:checked ~ .sb2 .slide_arrow3,
+    #slide11:checked ~ .sb2 .slide_arrow2{
+        transform: rotate(180deg);
+        -webkit-transform: -webkit-rotate (180deg);
+        -webkit-transform: rotate(180deg);
+        position: absolute;
+        left: 150px;
+        top: 184px;
+    }
+}
+
+@media all and (max-width: 720px) { 
+    
+    .Delete720{
+        display: none;
+    }
+
+    .Show720{
+        display: block;
+    }
+
+    .logo{
+        padding: 0;
+        padding-top: 65px;
+    }
+
+    .logo img, .footer_logo img{
+        width: 119px;
+    }
+
+    .request h1{
+        line-height: 43px;
+        margin-bottom: -20px;
+        font-size: 27pt;
+    }
+
+    .head_line{
+        position: absolute;
+        max-width: 356px;
+        width: 100%;
+        height: 1px;
+        background: #afafb1;
+    }
+
+    .request_announce{
+        padding-bottom: 0;
+        margin-bottom: 45px;
+        border-bottom: none;
+        
+    }
+
+    .block{
+        padding-left: 44px;
+        padding-right: 44px;
+    }
+
+    .cont_head{
+        margin-bottom: 165px;
+    }
+
+    .cont_big{
+        font-size: 16.5pt;
+    }
+
+    .fch{
+        margin-top: 85px;
+        margin-bottom: 0px;
+    }
+
+    .DogRocket_star2{
+        display: none;
+    }
+
+    .DogRocket_star3{
+        display: block;
+        top: auto;
+        left: auto;
+        width: 86%;
+        right: 0%;
+        bottom: 115px;
+    }
+
+    .service_title{
+        margin-bottom: 45px;
+    }
+
+    .DogRocket{
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .DogRocket_img{
+        position: absolute;
+        top: auto;
+        transform: scale(-1, 1);
+        left: auto ;
+        width: 110%;
+        right: -34%;
+        bottom: -260px;
+        /*width: 110%;*/
+        /*right: -575px;*/
+    }
+
+    .in_dR{
+        width: 100%;
+    }
+
+    /*
+    .DogRocket_star2{
+        display: none;
+    }
+
+    .DogRocket_star3{
+        display: block;
+        top: 178px;
+        left: 80px;
+    }
+
+    .service_title{
+        margin-bottom: 45px;
+    }
+
+    .DogRocket{
+        position: absolute;
+        left: 0;
+        width: 100%;
+    }
+
+    .DogRocket_img{
+        position: absolute;
+        top: 177px;
+        transform: scale(-1, 1);
+        left: 170px ;
+    }
+
+    */
+
+    .open_menu{
+        display: block;
+    }
+
+    .open_menu img{
+        top: 16px;
+        position: absolute;
+        right: 20px;
+    }
+
+    .request{
+        background: none;
+        max-width: 420px;
+        width: 80%;
+        padding: 0;
+    }
+
+    .logo{
+        width: 30%;
+    }
+
+    .exit_sub{
+        display: block;
+        margin-right: 30px;
+    }
+
+    .menu{
+        background: none;
+        font-size: 12pt;
+        width: 70%;
+    }
+
+    .menu_ul label{
+        padding: none;
+        border: none;
+        text-align: right;
+        cursor: pointer;
+    }
+
+    .menu_ul_dop{
+        position: absolute;
+        right: 30px;
+        top: 65px;
+        padding: 0;
+        margin: 0;
+        width: 250px;
+        text-align: right;
+        display: block;
+        
+    }
+
+    .menu{
+        padding-right: 0;
+        position: relative;
+        width: 100%;
+    }
+
+    .open_menu{
+        top: 65px;
+        position: absolute;
+        z-index: 89;
+        right: 24px;
+        cursor: pointer;
+    }
+
+    .menu_ul_dop label{
+        text-transform: uppercase;
+        background: #1668fe;
+        padding: 12px 20px;
+        color: white;
+        font-size: 10.5pt;
+        font-family: OpenSansBold;
+        cursor: pointer;
+        border-radius: 100px;
+        margin-right: 45px;
+        line-height: 12pt;
+        letter-spacing: 0px;
+    }
+
+    .menu_ul{
+        display: none;
+        position: absolute;
+    }
+
+    #top_menu1:checked ~ #sub_menu{
+        display: block;
+    }  
+
+    #bottom_menu1:checked ~ #sub_menu2{
+        display: block;
+    }    
+
+    #sub_menu{
+        width: 480px;
+        height: 800px;
+        right: 0px;
+        background: white;
+        z-index: 99;
+        padding: 30px;
+        display: none;
+        position: absolute;
+        top: 0;
+    }
+
+    #sub_menu2{
+        width: 480px;
+        height: 800px;
+        right: 0px;
+        background: white;
+        z-index: 99;
+        padding: 30px;
+        display: none;
+        position: absolute;
+    }
+
+    #sub_menu2 li{
+        font-family: OpenSansLight;
+    }
+
+    .footer_menu{
+        position: absolute;
+        top:-90px;
+        right: -40px;
+    }
+
+    .footer_menu #sub_menu2{
+        top: -1px;
+        right: -44px;
+    }
+
+    .footer_menu .open_menu{
+        top: 50px;
+    }
+
+    .footer_menu .menu_ul_dop{
+        display: none;
+    }
+
+    .exit_sub{
+        position: absolute;
+        right: 0px;
+        top: 30px;
+    }
+
+    #sub_menu a{
+        display: block;
+        margin-bottom: 34px;
+        text-decoration: none;
+    }
+
+    #sub_menu2 a{
+        text-decoration: none;
+        margin-bottom: 774px;
+    }
+
+    #sub_menu2 a li{
+        display: block;
+        font-size: 27pt;
+        margin-bottom: 34px;
+        text-align: left;
+        margin-bottom: 60px;
+        margin-top: 10px;
+        color: #57585e;
+    }
+
+    #sub_menu li{
+        font-size: 27pt;
+        font-family: OpenSansLight;
+    }
+
+    #sub_menu a:nth-child(2){
+        margin-top: 80px;
+    }
+
+    .request::before{
+        background: none;
+    }
+
+    .menu::before{
+        display: none;
+    }
+
+    .bacCall{
+        display: none;
+    }
+
+    #call1:checked ~ .headBlock .request .bacCall{
+        display: block;
+        position: absolute;
+        top: -175px;
+        background: white;
+        padding: 30px;
+        width: 720px;
+        left: -45px;
+        z-index: 99990000000px;
+        padding-top: 120px;
+    }
+
+    #call1:checked ~ .exit_sub2{
+        display: block;
+        right: 30px;
+        top: 30px;
+        
+    }   
+
+    .open_menu{
+        position: absolute;
+        z-index: 0;
+    }
+
+    .bacCall_form input{
+        width: 300px;
+    }
+
+    .service_block{
+        display: block;
+        width:  100%;
+        padding: 0;
+        padding-left: 100px;
+    }
+
+    .service_type{
+        width:  100%;
+    }
+
+    .service_type_pic .service_type_img{
+
+        right: 0;
+        position: absolute;
+        
+    }
+    .service_type_num{
+        left: -105px;
+        right: auto;
+    }
+
+    .srvice_line{
+        left: 55px;
+        width: 40px;
+    }
+    .service_type {
+        margin-bottom: 30px;
+    }
+
+    .service_type:last-child{
+        margin-bottom: 60px;
+    }
+    .service_title{
+        font-size: 25.5pt;
+        letter-spacing: -2px;
+        margin-bottom: 70px;
+    }
+    .host_title{
+        font-size: 24.5pt;;
+    }
+
+    .host_circle, .circle_pic{
+        width: 380px;
+        height: 380px;
+    }
+
+    .host_circle{
+        left: -45px;
+    }
+
+    .circle_text_bottom span:first-child{
+        font-size: 16.5px;
+        font-family: OpenSansLight;
+    }
+
+    .circle_text_middle {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .circle_text_bottom span:last-child{
+        font-size: 26px;
+        font-family: OpenSansBold;
+    }
+    .circle_text_top span:first-child{
+        font-size: 61.5pt;
+    }
+
+    .circle_text_top span:last-child{
+        font-size: 16.5pt;
+    }
+    .circle_text_top, .circle_text_bottom{
+        width: 200px;
+    }
+    .circle_text_top span:first-child:after{
+        font-size:16.5pt;
+        left: -35px;
+    }
+
+    .circle_text_middle::after{
+        width: 63px;
+        right: 48px;
+    }
+
+    .circle_text_top{
+        width: 290px;
+    }
+
+    .host_dia{
+        margin: 0;
+        left: auto;
+        right: -160px;
+        top: 150px;
+        
+    }
+
+    .host_circle{
+        margin-bottom: 85px;
+        top: -100px;
+    }
+
+    .host_title{
+        margin: 0;
+    }
+
+    .dia_pic{
+        margin: 0;
+        left: auto;
+        width: 484px;
+        height: 484px;
+    }
+
+    .host_dia img{
+        
+        margin: 0;
+        left: auto;
+        left: auto;
+    }
+
+    .dia_text{
+        left: -170px;
+        width: 300px;
+        top: -60px;
+    }
+
+    .dia_text span{
+        width: 300px;
+        font-size: 34.5pt;
+    }
+
+    .host_bgLine{
+        margin: 0;
+        right: -120px;
+        left: auto;
+        top: -65px;
+    }
+
+    /*.host_bgLine img{
+        width: 1223px;
+        height: 1223px;
+    }*/
+
+    .tariff_title{
+        font-size: 25.5pt;
+        margin-top: 30px;
+    }
+
+    .cb_social li:nth-child(1), .cb_social li:nth-child(3){
+        float: left;
+        padding-bottom: 100px;
+    }
+
+    .cb_social li:nth-child(2), .cb_social li:nth-child(4){
+        float: right;
+    }
+
+    .cb_social{
+        width: 70%
+    }
+
+    .megaUsCl{
+        font-size: 13.5pt; 
+    }
+
+    .specClassUp{
+        font-size: 12pt;
+    }
+
+    .cb_title{
+        font-size: 24.5pt;;
+    }
+    .contacts_block-text{
+        padding-left: 100px;
+        padding-right: 45px;
+        padding-top: 80px;
+        
+    }
+    
+    .cb_social{
+        width: 170px;
+    }
+    
+    .footer_block{
+        display: block;
+        width: 100%;
+    }
+
+    .footer_containerOuter{
+        display: block;
+        width: 100%;
+    }
+
+    .footer_phone{
+        position: relative;
+    }
+
+    .footer_block:nth-child(2){
+        padding-top:5px;
+    }
+    .footer_block:nth-child(3){
+        padding-top:30px;
+    }
+
+    .footerBlock{
+        padding-left: 40px
+    }
+
+    .footer_bottom{
+        margin-top: 40px;
+    }
+
+    .footer_text{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        letter-spacing: -0.8px;
+    }
+
+    .fb_copy{
+        width: 30%
+    }
+
+    .fb_logo{
+        width: 70%;
+        white-space: nowrap;
+    }
+
+    .host_bg_rocket1{
+        top: 50px;
+        left: 0px;
+    }
+
+    .host_bg_rocket3{
+        top: auto;
+        bottom: -190px;
+        left: 0px;
+    }
+
+    .host_bg_dog{
+        top: auto;
+        bottom: -370px;
+        right: 140px;
+    }
+
+    .host_bg_sun{
+        top: 50px;
+        right: 50px;
+    }
+
+    .headBlock .menu, .headBlock .logo{
+        position: absolute;
+    }
+
+    .request{
+        margin-top: 160px;
+    }
+
+    .menu{
+        right: 0;
+    }
+
+    .service_type_img1{
+        top: 0px;
+    }
+
+    .service_type_img2{
+        top: 0px;
+    }
+
+    .cb_text li span:last-child {
+        font-size: 13.5pt;
+    }
+
+    .tariffBlock .bacCall_form{
+        width: 100%;
+    }
+
+    .tariffBlock .bacCall{
+        width: 100%;
+    }
+
+    #sub_menu2{
+        padding-top: 120px;
+        padding-right: 0;
+    }
+
+    .DogRocket{
+        position: absolute;
+        z-index: 0;
+    }
+
+
+    .menu{
+        z-index: 5;
+    }
+
+    .bacCall{
+        z-index: 6;
+    }
+
+    .footer_menu #sub_menu2{
+        right: -10px;
+        top: 15px;
+    }
+
+    .footer_menu{
+        left: -10px;
+        top: -110px;
+    }
+    
+}
+
+@media all and (max-width: 700px) { 
+    .dia_text{
+        left: -140px;
+    }
+    .megaUsCl{
+        white-space: nowrap;
+    }
+
+}
+
+@media all and (max-width: 570px) { 
+    .cb_text li{
+        margin-bottom: 70px;
+    }
+
+    .contacts_block-text{
+        padding-left: 32px;
+        padding-right: 30px;
+    }
+
+    .cb_text_ico{
+        top: -40px;
+        left: 0;
+    }
+
+    .cb_title{
+        margin-top: -20px;
+        margin-bottom: 110px;
+    }
+}
+
+@media all and (max-width: 675px) { 
+
+    .Show675{
+        display: block;
+    }
+
+    .host_circle, .circle_pic{
+        width: 420px;
+        height: 420px;
+        
+    }
+
+    .host_circle{
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        position: relative;
+    
+    }
+
+    .host_dia{
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: 0 auto;
+        position: relative;
+        width: 420px;
+        height: 420px;
+    }
+
+    .dia_pic{
+        width: 420px;
+        height: 420px;
+    }
+
+    .host_dia{
+        top: -60px;
+        margin-bottom: 30px;
+    }
+
+    .dia_pic{
+        margin: 0;
+        padding: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+
+    .host_title{
+        padding-bottom: 140px;
+    }
+
+    .dia_text{
+        left: -30px;
+        top: -10px;
+        right: auto;
+    }
+
+    .hostBlock{
+        padding: 0;
+    }
+
+    .host_bgLine{
+        left: 0;
+        right: 0;
+        top: 380px;
+        margin: 0 auto;
+        position: absolute;
+        width: 0px;
+        height: 0px;
+    }
+
+    .host_bgLine img{
+
+    }
+
+    .host_bgLine_cont{
+        position: absolute;
+        width: 0px;
+        left: -400px;
+        right: 0;
+        height: 0px;
+    }
+
+    .tariffBlock{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .tariff_check{
+        display: table;
+    }
+
+    .tariff_check label{
+        margin: 0;
+        display: block;
+        display: table-cell;
+        vertical-align: middle;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .tariff_check label:nth-child(2){
+        width: 25px;
+        background: white;
+        display: block;
+    }
+
+    .tariff_check{
+        width: 100%;
+    }
+
+    .host_bg_rocket1{
+        top: 100px;
+        left: 15px;
+    }
+
+    .host_bg_rocket3{
+        top: auto;
+        bottom: -202px;
+        left: -15px;
+    }
+
+    .host_bg_dog{
+        bottom: -310px;
+        right: 55px;
+    }
+
+    .host_bg_sun{
+        top: 508px;
+        right: -10px;
+    }
+
+    .tariff_check{
+        max-width: 519px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+}
+
+@media all and (max-width: 482px) { 
+    .tariff_check>label{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media all and (max-width: 480px) { 
+
+    .tariffBlock .bacCall_form input[type="text"]:nth-child(2){
+        width: 100%;
+        float: none;
+    }
+
+    .tariffBlock .bacCall_form input[type="text"]:nth-child(3){
+        width: 100%;
+        float: none;
+    }
+
+    .DogRocket_star3{
+        display: none;
+    }
+
+    .DogRocket_star4{
+        display: block;
+        left: auto;
+        right: 0px;
+        bottom: 65px;
+        width: 95%;
+    }
+
+    .DogRocket{
+        width: 100%;
+        height: 100%;
+    }
+    .DogRocket_img{
+        left: auto;
+        right: -37%;
+        top: auto;
+        width: 120%;
+        bottom: -210px;
+    }
+
+    .Show480{
+        display: block;
+    }
+
+    .request_announce{
+        display: none;
+    }
+
+    .request h1{
+        font-size: 27pt;
+        margin-bottom: 56px;
+    }
+
+    .fch{
+        margin-top: 90px;
+        padding-bottom: 25px;
+    }
+    
+    .headBlock{
+        padding-bottom: 45px;
+    }
+
+    .service_title{
+        font-size: 19.5pt;
+    }
+
+    .block{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .service{
+        padding-bottom: 10px;
+    }
+
+    .service_title{
+        margin-bottom: 40px;
+    }
+
+    .service_type_img1{
+        max-width: 341px;
+        top: 20px;
+        left: auto;
+        margin-right: 20px;
+    }
+
+    .service_type_img2{
+        max-width: 313px;
+        top: 10px;
+        left: auto;
+        margin-right: 40px;
+    }
+
+    .service_type_pic {
+        height: 180px;
+    }
+
+
+    .service_type_title{
+        margin-bottom: 10px;
+    }
+
+    .service_type_title span:first-child{
+        font-size: 15.75pt;
+        font-family: OpenSansSemiBold;
+    }
+
+    .service_type_num{
+        font-size: 18pt;
+        font-family: OpenSansBold;
+        top: 5px;
+        left: -50px;
+    }
+
+    .srvice_line{
+        display: none;
+    }
+
+    .service_type_text{
+        padding-left: 50px;
+    }
+
+    .service_type_description p{
+        font-size: 9pt;
+        margin-bottom: 13px;
+    }
+
+    .host_title{
+        font-size: 19.5pt;
+    }
+
+    .cb_title{
+        font-size: 19.5pt;
+    }
+
+    .cb_text li span:last-child{
+        font-size: 12pt;
+    }
+
+    .specClassUp{
+        font-size: 10.5pt;
+    }
+
+    .tariff_title{
+        font-size: 19.5pt;
+    }
+    .cb_text li{
+        margin-bottom: 75px;
+    }
+
+    .cb_social{
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .menu_ul_dop{
+        position: absolute;
+        right: 0px;
+        top: 65px;
+        padding: 0;
+        margin: 0;
+        width: 250px;
+        text-align: right;
+        display: block;
+    }
+    
+
+    .open_menu img{
+        top: 16px;
+        position: absolute;
+        right: 0px;
+    }
+    
+    .hostBlock{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .tariffBlock .bacCall_form input[type='submit']{
+        margin-top: 5px;
+    }
+
+    .menu, .menu_ul{
+        width: 100%;
+        position: absolute;
+        left: 0;
+        right: none;
+    }
+
+    .exit_sub{
+        right: 0px;
+        width: 100%;
+    }
+
+    #sub_menu{
+        width: 100%;
+    }
+
+    #sub_menu2{
+        width: 100%;
+    }
+
+    .footerBlock{
+        padding: 0;
+    }
+
+    .footer_block{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .footer_menu{
+        position: absolute;
+        left: 0px;
+        width: 100%;
+    }
+
+    #call1:checked ~ .headBlock .request .bacCall{
+        width: 100%;
+        position: absolute;
+        left: 0;
+    }
+
+    .request{
+        width: 100%;
+        
+    }
+
+    .headBlock{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .DogRocket, .request, .logo{
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 100%;
+    }
+
+    .request{
+        max-width: none;
+    }
+
+    .head_line{
+        width: 100%;
+        position: relative;
+    }
+
+    .fch {
+        margin-top: 60px;
+    }
+
+    .contacts_block-text{
+        padding-right: 0;
+    }
+
+    .tariff_text, tariff_title, .tariff_check{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .tariffBlock{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .tariff_check>label {
+        width: 50%;
+    }
+
+
+
+    .footer_phone{
+        /*font-family: OpenSansLight;*/
+        padding-bottom: 10px;
+    }
+
+    .footer_bottom .block{
+        padding: 0 30px 0 30px;
+    }
+    
+}
+
+@media all and (max-width: 420px) { 
+
+    body{
+        overflow-x:hidden;
+    }
+
+    #call1:checked ~ .headBlock .request .bacCall{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .bacCall *{
+        width: 100%;
+    }
+    
+    .exit_sub3{
+        width: 45px;
+        height: 45px;
+    }
+
+    .bacCall_form input[type='text']{
+        width: 100%;
+    }
+
+    .bacCall_form input[type='submit']{
+        width: 100%;
+    }
+
+    .menu{
+        margin-top: 0px;
+        width: 100%;
+        padding: 0px;
+        top: 0px;
+    }
+
+    .logo{
+        margin-top: 40px;
+    }
+
+    .menu_ul_dop{
+        left: 20px;
+    }
+
+    .menu_ul_dop, .open_menu{
+        top: 40px;
+    }
+
+    .service_type_img2{
+        margin: 0;
+    }
+    .host_circle{
+        width: 100%;
+    }
+    .host_dia{
+        width: 100%;
+    }
+    .dia_text{
+        position: relative;
+        left: 0;
+        right: 0;
+    }
+    .dia_pic{
+        width: 420px;
+    }
+
+
+    .fb_logo{
+        padding-top: 0;
+        text-align: right;
+        
+        
+    }
+
+    .fb_block{
+        padding: 12px 0;
+        vertical-align: middle;
+        width: 50%;
+    }
+
+    .fb_logo>*{
+        display: block;
+        text-align: right;
+        margin: 0;
+        vertical-align: top;
+    }
+
+    .fb_logo div:first-child {
+        margin: 0;
+        margin-bottom: 5px;
+    }
+
+
+
+    .circle_pic{
+
+    }
+}
+
+@media all and (max-width: 400px) { 
+    .tariff_check label:nth-child(2){
+        padding: 5px;
+
+    }
+
+    .tariff_check>label {
+        display: inline-block;
+        width: 100%;
+        padding-top: 17px;
+        padding-bottom: 17px;
+    }
+
+}
+
+@media all and (max-width: 370px) { 
+
+}
+
+@media all and (max-width: 720px) { 
+    .host_bgLine_ring:nth-child(1){
+        width: 600px;
+        height: 600px;
+    }
+    .host_bgLine_ring:nth-child(1){
+        top: 170px;
+        left: 140px;
+    }
+
+    .host_bgLine_ring:nth-child(2){
+        width: 900px;
+        height: 900px;
+    }
+    .host_bgLine_ring:nth-child(2){
+        left: 90px;
+        top: 80px;
+    }
+
+    .host_bgLine_ring:nth-child(3){
+        width: 1200px;
+        height: 1200px;
+    }
+    .host_bgLine_ring:nth-child(3){
+        top: 0px;
+        left: 30px;
+    }
+
+    /*.host_bgLine_ring:nth-child(1){
+        top: 210px;
+        left: 150px;
+    }
+    .host_bgLine_ring:nth-child(2){
+        top: 90px;
+        left: 90px;
+    }*/
+}
+
+
+
+
+
+
+
+
+

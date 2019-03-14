@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /css
+Disallow: /docs
+Disallow: /fonts
+Disallow: /images
+Disallow: /includes
+Disallow: /orders
+Disallow: /tpl
+Host: lunahost.ru
